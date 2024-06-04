@@ -4,7 +4,7 @@ FROM nginx
 
 EXPOSE 80
 
-COPY./html/
+COPY html /usr/share/nginx/html
 
 CMD ["nginx", "-g"]
 
