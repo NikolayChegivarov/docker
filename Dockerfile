@@ -7,8 +7,3 @@ EXPOSE 80
 COPY html /usr/share/nginx/html
 
 CMD ["nginx", "-g"]
-
-# docker build -t my-nginx.
-
-# docker run -d -p 101:80 my-nginx
-
